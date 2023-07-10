@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ManjuDharagond/ShopNest_Store/tree/master/front_end/static/css/main.f669aea7.css",
+    "main.js": "/ManjuDharagond/ShopNest_Store/tree/master/front_end/static/js/main.e5d3b42f.js",
+    "index.html": "/ManjuDharagond/ShopNest_Store/tree/master/front_end/index.html",
+    "main.f669aea7.css.map": "/ManjuDharagond/ShopNest_Store/tree/master/front_end/static/css/main.f669aea7.css.map",
+    "main.e5d3b42f.js.map": "/ManjuDharagond/ShopNest_Store/tree/master/front_end/static/js/main.e5d3b42f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f669aea7.css",
+    "static/js/main.e5d3b42f.js"
+  ]
+}

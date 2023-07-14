@@ -54,7 +54,9 @@ const ProductDetails = (props) => {
       <h5 className="card-text">Price :&nbsp;	&#8377; {props.product.productPrice}</h5>
 
 
-      <img className="card-img-top m-4" style={{ objectFit:'contain', height: '350px', width:'25rem' }} src={props.product.productImage} alt={props.product.productName} />
+  
+      <img className="card-img-top m-4" style={{ objectFit:'contain', height: '350px', width:'50vw' }} src={props.product.productImage} alt={props.product.productName} />
+      
       <div className="mt-2 ml-2 mb-1 d-flex justify-content-center">
             <button className="btn btn-primary mr-2" onClick={() => addToCart(props.product)}>
               Add to Cart

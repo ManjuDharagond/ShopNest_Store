@@ -17,7 +17,7 @@ const HomePage = () => {
     >
       <div style={{ height: "15vh" }}>
         <h1 className="text-center text-white pt-4">
-          Welcome to the Storekart Web Application
+          Welcome to the ShopNest Web Application
         </h1>
       </div>
 

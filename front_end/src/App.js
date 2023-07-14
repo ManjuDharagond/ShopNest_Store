@@ -89,7 +89,7 @@ function App() {
           {localStorage.getItem('login') && <Route path="/home" element={<HomeLogout/>} />}
           {localStorage.getItem('login') && <Route path="/user" element={<User/>} />}
 
-          <Route path='*' element={<PageNotFound/>} />
+          
 
           <Route path="/register" element={<Register/>} />
           
@@ -101,10 +101,12 @@ function App() {
 
           
           {localStorage.getItem('login') && <Route path="/cart" element={<CartPage userId={localStorage.getItem('userId')} authFetch={authenticatedFetch}/>}/>}
+          <Route path='*' element={<PageNotFound/>} />
           </Routes>
       </div>
 
       
+
 
       {localStorage.getItem('login') && <Footer/>}  
       </div>
